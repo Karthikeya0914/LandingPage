@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to right, #222, #444);
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    /* width: 120%;
+    height: 100%; */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4em;
+    color: #fc7c32;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #111;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.hero h2, .content h2 {
+    font-size: 2.5em;
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+
+.hero p, .content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #ff9800;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e08a00;
+}
+
+footer {
+    background: linear-gradient(to right, #222, #444);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+}
+img{
+    border: 3% salmon;
+    border-radius: 5%;
+}
+.watches{
+    display: flex;
+    object-fit: cover;
+}
+.analog{
+    width: 35%;
+    height: 35%;
+}
+.smart{
+    width: 35%;
+    height: 35%;
+}
+.hybrid{
+    width: 35%;
+    height: 35%;
+}
+ul{
+    list-style-type: none;
+    font-size: 220%;
+    line-height: 220%;
+    text-shadow: #e08a00;
+}
+li::before {
+    content: "❤️"; 
+}
+.welcome{
+    text-align: center;
+    font-size: 400%;
+    margin: 4%;
+}
+b{
+    color: rgb(212, 173, 42);
+    box-sizing: border-box;
+    box-shadow: #e08a00;
+    border: #fff;
+    letter-spacing: 190%;
+}
+.serv{
+    font-size: 250%;
+    color: #8cc970;
+}
+header {
+    background-image: url('watchshop.jpeg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the background image covers the entire header */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    padding: 20px; /* Adjust padding as needed */
+    color: #fff; /* Set text color to contrast with the background image */
+    text-align: center; /* Align text to the center */
+
+}
